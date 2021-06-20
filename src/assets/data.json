@@ -1,0 +1,14 @@
+[
+{
+            "previewImageSrc": "assets/images/mydesign.jpg",
+            "thumbnailImageSrc": "assets/images/mydesign.jpg",
+            "alt": "Description for Image 1",
+            "title": "Title 1"
+        },
+        {
+            "previewImageSrc":"assets/images/mydesign.jpg",
+            "thumbnailImageSrc":"assets/images/design.jpg",
+            "alt": "Description for Image 2",
+            "title": "Title 2"
+        }
+]

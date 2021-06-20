@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&display=swap");
+
+body {
+  background-color: rgb(233, 233, 130);
+}
+
+.container {
+  text-align: center;
+}
+.footer_container {
+  margin-top: -5%;
+  background-image: url("../../assets/images/footerImage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 450px;
+  opacity: 0.8;
+}
+
+.footer_container h5 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.icons-group {
+  margin-top: 5%;
+  position: relative;
+  padding-top: 15%;
+  position: relative;
+  top: 55px;
+  color: rgb(29, 29, 29);
+}
+.icons-group a {
+  font-size: 25px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.footer_title h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: rgb(255, 254, 254);
+}
+
+.footer_title {
+  margin-top: 10%;
+}
+
+.map_title {
+  margin-top: 10%;
+  padding-top: 10%;
+  color: rgb(255, 254, 254);
+}
+.map_title h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+p {
+  color: rgb(24, 24, 24);
+  font-size: 12px;
+}
+.icons-group h5 {
+  color: rgb(66, 62, 62);
+}
+.gmap {
+  text-align: center;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  background-color: rgb(197, 205, 212);
+  height: 1px;
+  color: rgb(246, 250, 250);
+  box-shadow: 1px 1px 1px rgb(153, 152, 152);
+}
+
+@media screen and (max-width: 768px) {
+  .footer_container {
+    height: 250px;
+  }
+  .icons-group {
+    position: relative;
+    top: 25px;
+  }
+}
